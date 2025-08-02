@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "url-shortener-frontend",
   "version": "0.1.0",
   "private": true,
@@ -40,5 +41,27 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "name": "url-shortener-microservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "geoip-lite": "^1.4.10",
+    "mongoose": "^8.17.0",
+    "shortid": "^2.2.17",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+>>>>>>> 088450d3e53d5884292cf7ffb17a18d8faee83a9
   }
 }
